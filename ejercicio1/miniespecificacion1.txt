@@ -1,0 +1,48 @@
+// Dada la siguiente escala de calificaciones de un colegio.
+0 - 2 equivale a Muy mala
+2.1 - 2.5 equivale a Mala
+2.6 - 2.9 equivale a Deficiente
+3.0 - 3.5 equivale a Aprobada
+3.6 - 4.0 equivale a Buena
+4.1 - 4.5 equivale a Muy buena
+4.6 - 5.0 equivale a Excelente
+
+
+// Genere una miniespecificación que pida por teclado la calificación de un 
+// estudiante. Con base en ella, indique la calificación cualitativa que 
+// tendría la calificación ingresada
+
+1.  Inicio
+2.  calificacion, d[0-n]
+3.  << "Ingrese la califiación del estudiante"
+4.  >> calificacion
+5.  Si calificacion >= 0 and calificacion <= 2 entonces
+6.    << "Calificación :" + calificacion + "es Muy Mala"
+7.  De lo contrario
+8.    Si calificacion >= 2.1 and calificacion <= 2.5 entonces
+9.        << "Calificación :" + calificacion + "es Mala"
+10.   De lo contrario
+11.        Si calificacion >= 2.6 and calificacion <= 2.9 entonces
+12.            << "Calificación :" + calificacion + "es Deficiente"
+13.        De lo contrario
+14.            Si calificacion >= 3.0 and calificacion <= 3.5 entonces
+15.                << "Calificación :" + calificacion + "es Aprobada"
+16.            De lo contrario
+17.                Si calificacion >= 3.6 and calificacion <= 4.0 entonces
+18.                    << "Calificación :" + calificacion + "es Buena"
+19.                De lo contrario
+20.                    Si calificacion >= 4.1 and calificacion <= 4.5 entonces
+21.                        << "Calificación :" + calificacion + "es Muy Buena"
+22.                    De lo contrario
+23.                        Si calificacion >= 4.6 and calificacion <= 5.0 entonces
+24.                            << "Calificación :" + calificacion + "es Excelente"
+25.                        De lo contrario
+26.                            << "Calificación fuera de rango"
+27.                        Fin Si
+28.                    Fin Si
+29.                Fin Si
+30.            Fin Si
+31.        Fin Si
+32.   Fin Si
+33. Fin Si
+34. Fin

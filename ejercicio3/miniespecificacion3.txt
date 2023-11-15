@@ -1,0 +1,6 @@
+// Genere un algoritmo y miniespecificación que permita ingresar dos valors por teclado. Se puede usar la denotación: 
+// a, b para cada valor, de tipo entero. El valor de a, indica el eje X, y el valor b, indica el eje Y. Con base a los 
+// valores de los datos  ingresados, determine el cuadrante del plano cartesiano, al que pertenece. Recuerde, 
+// primer cuadrante: X e Y son positivos; segundo cuadrante: X negativo, Y positivo; tercer cuadrante X negativo, Y negativo; 
+// cuarto cuadrante, X positivo, Y negativo. Luego de ingresar los valores, presentar en pantalla a que cuadrante 
+// pertenece la pareja de valores ingresados por teclado
